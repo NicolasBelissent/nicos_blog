@@ -49,13 +49,26 @@ import { SITE } from "@consts";
   </Container>
 </header>
 
-<script is:inline>
+<script>
   function setupThemeToggle() {
     const themeToggle = document.getElementById('theme-toggle');
-    if (!themeToggle) return;
+    if (!themeToggle) {
+      console.log('Theme toggle button not found');
+      return;
+    }
 
-    themeToggle.addEventListener('click', () => {
+    console.log('Setting up theme toggle');
+
+    // Remove any existing listeners
+    const newToggle = themeToggle.cloneNode(true);
+    themeToggle.parentNode?.replaceChild(newToggle, themeToggle);
+
+    newToggle.addEventListener('click', (e) => {
+      e.preventDefault();
+      console.log('Theme toggle clicked');
+
       const isDark = document.documentElement.classList.contains('dark');
+      console.log('Current theme:', isDark ? 'dark' : 'light');
 
       // Create CSS to disable transitions during theme change
       const css = document.createElement("style");
@@ -75,9 +88,11 @@ import { SITE } from "@consts";
       if (isDark) {
         localStorage.setItem('theme', 'light');
         document.documentElement.classList.remove('dark');
+        console.log('Switched to light');
       } else {
         localStorage.setItem('theme', 'dark');
         document.documentElement.classList.add('dark');
+        console.log('Switched to dark');
       }
 
       // Force reflow and remove transition disabling
@@ -86,6 +101,13 @@ import { SITE } from "@consts";
     });
   }
 
-  document.addEventListener('DOMContentLoaded', setupThemeToggle);
-  document.addEventListener('astro:page-load', setupThemeToggle);
+  document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOM loaded');
+    setupThemeToggle();
+  });
+
+  document.addEventListener('astro:page-load', () => {
+    console.log('Astro page load');
+    setupThemeToggle();
+  });
 </script>
