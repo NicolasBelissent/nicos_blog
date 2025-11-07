@@ -19,12 +19,13 @@ if (!country) return Astro.redirect("/photos");
     <div class="my-10">
       <h1 class="animate text-4xl font-display font-semibold text-black dark:text-white">{country.name}</h1>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-center country-photo-grid">
       {country.photos.map((photo, index) => (
         <a
           href={photo.src}
           data-fancybox="gallery"
           class="animate overflow-hidden block cursor-pointer"
+          data-index={index}
         >
           <img
             src={photo.src}
@@ -38,6 +39,34 @@ if (!country) return Astro.redirect("/photos");
     </div>
   </Container>
 </PageLayout>
+
+<style>
+  .country-photo-grid {
+    overflow: hidden;
+  }
+
+  .country-photo-grid a {
+    max-width: 100%;
+  }
+
+  @media (min-width: 1024px) {
+    .country-photo-grid a:nth-last-child(1):nth-child(3n-1) {
+      grid-column: span 2;
+    }
+    .country-photo-grid a:nth-last-child(2):nth-child(3n-1) {
+      grid-column: span 2;
+    }
+    .country-photo-grid a:nth-last-child(1):nth-child(3n-2) {
+      grid-column: span 3;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .country-photo-grid a:nth-last-child(1):nth-child(odd) {
+      grid-column: span 2;
+    }
+  }
+</style>
 
 <script>
   import { Fancybox } from "@fancyapps/ui";
