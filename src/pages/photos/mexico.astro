@@ -21,7 +21,7 @@ if (!country) return Astro.redirect("/photos");
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       {country.photos.map((photo, index) => (
-        <div class="animate overflow-hidden rounded-lg bg-neutral-200 dark:bg-neutral-800">
+        <div class="animate overflow-hidden bg-neutral-200 dark:bg-neutral-800">
           <img
             src={photo.src}
             alt={photo.alt}

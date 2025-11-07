@@ -18,11 +18,11 @@ const photoCollections = countries.map(country => {
 <PageLayout title="Photos" description="A collection of photos from my adventures">
   <Container>
     <div class="space-y-10">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
         {photoCollections.map((collection) => (
           <a
             href={`/photos/${collection.slug}`}
-            class="group relative overflow-hidden rounded-lg aspect-square block"
+            class="group relative overflow-hidden aspect-square block"
           >
             <img
               src={collection.coverImage}
@@ -30,7 +30,7 @@ const photoCollections = countries.map(country => {
               class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
             />
             <div class="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
-              <h2 class="font-display font-semibold text-4xl text-white">
+              <h2 class="font-display font-semibold text-2xl md:text-3xl lg:text-4xl text-white">
                 {collection.country}
               </h2>
             </div>
