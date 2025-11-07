@@ -98,13 +98,12 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
     margin: 0 auto;
     padding: max(2.5vw, 12px);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: max(2.5vw, 12px);
-    justify-items: center;
+    place-items: center;
 
     div {
       width: 100%;
-      max-width: 450px;
       aspect-ratio: 1;
       overflow: hidden;
       opacity: 1;
@@ -128,6 +127,11 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
   @media (min-width: 1024px) {
     .justified-gallery {
       grid-template-columns: repeat(3, 1fr);
+    }
+
+    .justified-gallery div {
+      width: 100%;
+      max-width: 100%;
     }
   }
 </style>
