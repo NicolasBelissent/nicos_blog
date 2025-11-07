@@ -31,11 +31,6 @@ export const photosByCountry: Record<string, Country> = {
         "caption": "IMG 0188"
       },
       {
-        "src": "/images/guatemala/IMG_0206.webp",
-        "alt": "IMG 0206",
-        "caption": "IMG 0206"
-      },
-      {
         "src": "/images/guatemala/IMG_0207.webp",
         "alt": "IMG 0207",
         "caption": "IMG 0207"
@@ -169,53 +164,53 @@ export const photosByCountry: Record<string, Country> = {
       },
       {
         "src": "/images/nepal/img_2862.webp",
-        "alt": "img 2862",
-        "caption": "img 2862"
+        "alt": "Img 2862",
+        "caption": "Img 2862"
       },
       {
         "src": "/images/nepal/img_2867.webp",
-        "alt": "img 2867",
-        "caption": "img 2867"
+        "alt": "Img 2867",
+        "caption": "Img 2867"
       },
       {
         "src": "/images/nepal/img_2873.webp",
-        "alt": "img 2873",
-        "caption": "img 2873"
+        "alt": "Img 2873",
+        "caption": "Img 2873"
       },
       {
         "src": "/images/nepal/img_2875.webp",
-        "alt": "img 2875",
-        "caption": "img 2875"
+        "alt": "Img 2875",
+        "caption": "Img 2875"
       },
       {
         "src": "/images/nepal/img_2890.webp",
-        "alt": "img 2890",
-        "caption": "img 2890"
+        "alt": "Img 2890",
+        "caption": "Img 2890"
       },
       {
         "src": "/images/nepal/img_2893.webp",
-        "alt": "img 2893",
-        "caption": "img 2893"
+        "alt": "Img 2893",
+        "caption": "Img 2893"
       },
       {
         "src": "/images/nepal/img_2907.webp",
-        "alt": "img 2907",
-        "caption": "img 2907"
+        "alt": "Img 2907",
+        "caption": "Img 2907"
       },
       {
         "src": "/images/nepal/img_2910.webp",
-        "alt": "img 2910",
-        "caption": "img 2910"
+        "alt": "Img 2910",
+        "caption": "Img 2910"
       },
       {
         "src": "/images/nepal/img_2912.webp",
-        "alt": "img 2912",
-        "caption": "img 2912"
+        "alt": "Img 2912",
+        "caption": "Img 2912"
       },
       {
         "src": "/images/nepal/img_2913.webp",
-        "alt": "img 2913",
-        "caption": "img 2913"
+        "alt": "Img 2913",
+        "caption": "Img 2913"
       }
     ]
   },
@@ -225,104 +220,53 @@ export const photosByCountry: Record<string, Country> = {
     "photos": [
       {
         "src": "/images/senegal/img_5148.webp",
-        "alt": "img 5148",
-        "caption": "img 5148"
+        "alt": "Img 5148",
+        "caption": "Img 5148"
       },
       {
         "src": "/images/senegal/img_5153.webp",
-        "alt": "img 5153",
-        "caption": "img 5153"
+        "alt": "Img 5153",
+        "caption": "Img 5153"
       },
       {
         "src": "/images/senegal/img_5167.webp",
-        "alt": "img 5167",
-        "caption": "img 5167"
+        "alt": "Img 5167",
+        "caption": "Img 5167"
       },
       {
         "src": "/images/senegal/img_5170.webp",
-        "alt": "img 5170",
-        "caption": "img 5170"
+        "alt": "Img 5170",
+        "caption": "Img 5170"
       },
       {
         "src": "/images/senegal/img_5181.webp",
-        "alt": "img 5181",
-        "caption": "img 5181"
+        "alt": "Img 5181",
+        "caption": "Img 5181"
       },
       {
         "src": "/images/senegal/img_5188.webp",
-        "alt": "img 5188",
-        "caption": "img 5188"
+        "alt": "Img 5188",
+        "caption": "Img 5188"
       },
       {
         "src": "/images/senegal/img_5193.webp",
-        "alt": "img 5193",
-        "caption": "img 5193"
+        "alt": "Img 5193",
+        "caption": "Img 5193"
       },
       {
         "src": "/images/senegal/img_5202.webp",
-        "alt": "img 5202",
-        "caption": "img 5202"
+        "alt": "Img 5202",
+        "caption": "Img 5202"
       },
       {
         "src": "/images/senegal/img_5205.webp",
-        "alt": "img 5205",
-        "caption": "img 5205"
+        "alt": "Img 5205",
+        "caption": "Img 5205"
       },
       {
         "src": "/images/senegal/img_5295.webp",
-        "alt": "img 5295",
-        "caption": "img 5295"
-      }
-    ]
-  },
-  "thailand": {
-    "name": "Thailand",
-    "slug": "thailand",
-    "photos": [
-      {
-        "src": "/images/thailand/000001-2.webp",
-        "alt": "000001 2",
-        "caption": "000001 2"
-      },
-      {
-        "src": "/images/thailand/000012.webp",
-        "alt": "000012",
-        "caption": "000012"
-      },
-      {
-        "src": "/images/thailand/000014.webp",
-        "alt": "000014",
-        "caption": "000014"
-      },
-      {
-        "src": "/images/thailand/000015.webp",
-        "alt": "000015",
-        "caption": "000015"
-      },
-      {
-        "src": "/images/thailand/img_7095-2.webp",
-        "alt": "img 7095 2",
-        "caption": "img 7095 2"
-      },
-      {
-        "src": "/images/thailand/img_7097-1.webp",
-        "alt": "img 7097 1",
-        "caption": "img 7097 1"
-      },
-      {
-        "src": "/images/thailand/img_7098.webp",
-        "alt": "img 7098",
-        "caption": "img 7098"
-      },
-      {
-        "src": "/images/thailand/img_7099.webp",
-        "alt": "img 7099",
-        "caption": "img 7099"
-      },
-      {
-        "src": "/images/thailand/img_7100.webp",
-        "alt": "img 7100",
-        "caption": "img 7100"
+        "alt": "Img 5295",
+        "caption": "Img 5295"
       }
     ]
   },
@@ -404,6 +348,57 @@ export const photosByCountry: Record<string, Country> = {
         "src": "/images/tanzania/0035_2.webp",
         "alt": "0035 2",
         "caption": "0035 2"
+      }
+    ]
+  },
+  "thailand": {
+    "name": "Thailand",
+    "slug": "thailand",
+    "photos": [
+      {
+        "src": "/images/thailand/000001-2.webp",
+        "alt": "000001 2",
+        "caption": "000001 2"
+      },
+      {
+        "src": "/images/thailand/000012.webp",
+        "alt": "000012",
+        "caption": "000012"
+      },
+      {
+        "src": "/images/thailand/000014.webp",
+        "alt": "000014",
+        "caption": "000014"
+      },
+      {
+        "src": "/images/thailand/000015.webp",
+        "alt": "000015",
+        "caption": "000015"
+      },
+      {
+        "src": "/images/thailand/img_7095-2.webp",
+        "alt": "Img 7095 2",
+        "caption": "Img 7095 2"
+      },
+      {
+        "src": "/images/thailand/img_7097-1.webp",
+        "alt": "Img 7097 1",
+        "caption": "Img 7097 1"
+      },
+      {
+        "src": "/images/thailand/img_7098.webp",
+        "alt": "Img 7098",
+        "caption": "Img 7098"
+      },
+      {
+        "src": "/images/thailand/img_7099.webp",
+        "alt": "Img 7099",
+        "caption": "Img 7099"
+      },
+      {
+        "src": "/images/thailand/img_7100.webp",
+        "alt": "Img 7100",
+        "caption": "Img 7100"
       }
     ]
   }

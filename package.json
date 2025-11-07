@@ -5,14 +5,15 @@
   "scripts": {
     "dev": "astro dev",
     "dev:network": "astro dev --host",
-    "build": "astro check && astro build",
+    "build": "npm run sync-photos && astro check && astro build",
     "preview": "astro preview",
     "preview:network": "astro preview --host",
     "astro": "astro",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "photos": "node scripts/generate-photos.js",
-    "optimize-images": "node scripts/optimize-images.js"
+    "optimize-images": "node scripts/optimize-images.js",
+    "sync-photos": "node scripts/sync-photos.js"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
