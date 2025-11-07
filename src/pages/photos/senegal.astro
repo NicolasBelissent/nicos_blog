@@ -19,19 +19,19 @@ if (!country) return Astro.redirect("/photos");
     <div class="my-10">
       <h1 class="animate text-4xl font-display font-semibold text-black dark:text-white">{country.name}</h1>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-min">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       {country.photos.map((photo, index) => (
         <a
           href={photo.src}
           data-fancybox="gallery"
-          class="animate overflow-hidden bg-neutral-200 dark:bg-neutral-800 min-w-0 block cursor-pointer"
+          class="animate overflow-hidden block cursor-pointer w-full"
         >
           <img
             src={photo.src}
             alt={photo.alt}
             loading={index < 6 ? "eager" : "lazy"}
             decoding="async"
-            class="w-full h-auto object-contain hover:scale-105 transition-transform duration-300"
+            class="w-full h-auto hover:scale-105 transition-transform duration-300"
           />
         </a>
       ))}
