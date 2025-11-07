@@ -10,6 +10,7 @@ const QUALITY = 80;
 async function optimizeImage(inputPath, outputPath) {
   try {
     const info = await sharp(inputPath)
+      .rotate() // Auto-rotate based on EXIF orientation
       .resize(MAX_WIDTH, MAX_WIDTH, {
         fit: 'inside',
         withoutEnlargement: true
