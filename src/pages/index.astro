@@ -1,22 +1,26 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
 import { HOME } from "@consts";
-import { getRandomPhotos } from "@data/photos";
+import { photosByCountry } from "@data/photos";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
-const photos = getRandomPhotos(20);
+// Get all photos for client-side randomization
+const allPhotos = Object.values(photosByCountry).flatMap(country =>
+  country.photos.map(photo => ({ ...photo, country: country.slug }))
+);
 ---
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <section class="justified-gallery" id="photoswipe">
     {
-      photos.map((photo, index) => {
+      allPhotos.slice(0, 20).map((photo, index) => {
         return (
           <a
             style="--width: 400; --height: 400;"
             href={photo.src}
             target="_blank"
             data-fancybox="gallery"
+            data-photo={JSON.stringify(photo)}
           >
             <img
               src={photo.src}
@@ -29,6 +33,39 @@ const photos = getRandomPhotos(20);
     }
   </section>
 </PageLayout>
+
+<script define:vars={{ allPhotos }}>
+  // Shuffle array using Fisher-Yates algorithm
+  function shuffle(array) {
+    const arr = [...array];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  // Randomize photos on page load
+  document.addEventListener('DOMContentLoaded', () => {
+    const gallery = document.getElementById('photoswipe');
+    if (!gallery) return;
+
+    const shuffled = shuffle(allPhotos).slice(0, 20);
+    const links = gallery.querySelectorAll('a');
+
+    links.forEach((link, index) => {
+      if (shuffled[index]) {
+        const photo = shuffled[index];
+        const img = link.querySelector('img');
+        if (img) {
+          img.src = photo.src;
+          img.alt = photo.alt;
+        }
+        link.href = photo.src;
+      }
+    });
+  });
+</script>
 
 <script>
   import { Fancybox } from "@fancyapps/ui";
