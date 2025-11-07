@@ -1,0 +1,41 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import { SITE, SOCIALS } from "@consts";
+import Link from "@components/Link.astro";
+---
+
+<PageLayout title="About" description="About me and this site">
+  <Container>
+    <div class="space-y-10">
+      <section class="animate space-y-4">
+        <article class="space-y-4">
+          <p>
+            hey!! im nico, a french american ai engineer living in london. i love running, cycling & being outdoors. i use this blog to share past and current adventures. have a read! ;)
+          </p>
+        </article>
+      </section>
+
+      <section class="animate space-y-4">
+        <h2 class="font-display font-semibold text-3xl text-black dark:text-white">
+          Connect
+        </h2>
+        <ul class="flex flex-wrap gap-2">
+          {SOCIALS.map(SOCIAL => (
+            <li class="flex gap-x-2 text-nowrap">
+              <Link href={SOCIAL.HREF} external aria-label={`${SITE.NAME} on ${SOCIAL.NAME}`}>
+                {SOCIAL.NAME}
+              </Link>
+              {"/"}
+            </li>
+          ))}
+          <li class="line-clamp-1">
+            <Link href={`mailto:${SITE.EMAIL}`} aria-label={`Email ${SITE.NAME}`}>
+              {SITE.EMAIL}
+            </Link>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </Container>
+</PageLayout>

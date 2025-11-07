@@ -1,0 +1,3 @@
+Place your photos here (.jpg, .jpeg, .png, .webp)
+
+The photo grid will automatically display all images in this directory.

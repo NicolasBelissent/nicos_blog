@@ -10,14 +10,17 @@
     "preview:network": "astro preview --host",
     "astro": "astro",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "photos": "node scripts/generate-photos.js"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
+    "@astrojs/cloudflare": "^12.6.10",
     "@astrojs/mdx": "^4.0.2",
     "@astrojs/rss": "^4.0.10",
     "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "^5.1.3",
+    "@fancyapps/ui": "^6.1.4",
     "@fontsource/inter": "^5.0.17",
     "@fontsource/lora": "^5.0.16",
     "@tailwindcss/typography": "^0.5.10",

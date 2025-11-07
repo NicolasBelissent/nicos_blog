@@ -1,0 +1,42 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import { getAllCountries, getRandomPhotos } from "@data/photos";
+
+const countries = getAllCountries();
+// Get one random photo per country for the cover
+const photoCollections = countries.map(country => {
+  const randomIndex = Math.floor(Math.random() * country.photos.length);
+  return {
+    country: country.name,
+    slug: country.slug,
+    coverImage: country.photos[randomIndex].src
+  };
+});
+---
+
+<PageLayout title="Photos" description="A collection of photos from my adventures">
+  <Container>
+    <div class="space-y-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {photoCollections.map((collection) => (
+          <a
+            href={`/photos/${collection.slug}`}
+            class="group relative overflow-hidden rounded-lg aspect-square block"
+          >
+            <img
+              src={collection.coverImage}
+              alt={collection.country}
+              class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+            />
+            <div class="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+              <h2 class="font-display font-semibold text-4xl text-white">
+                {collection.country}
+              </h2>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </Container>
+</PageLayout>
