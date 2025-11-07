@@ -67,6 +67,97 @@ export const photosByCountry: Record<string, Country> = {
       }
     ]
   },
+  "mexico": {
+    "name": "Mexico",
+    "slug": "mexico",
+    "photos": [
+      {
+        "src": "/images/mexico/IMG_0019.jpeg",
+        "alt": "IMG 0019",
+        "caption": "IMG 0019"
+      },
+      {
+        "src": "/images/mexico/IMG_8178.jpeg",
+        "alt": "IMG 8178",
+        "caption": "IMG 8178"
+      },
+      {
+        "src": "/images/mexico/IMG_8194.jpeg",
+        "alt": "IMG 8194",
+        "caption": "IMG 8194"
+      },
+      {
+        "src": "/images/mexico/IMG_8349.jpeg",
+        "alt": "IMG 8349",
+        "caption": "IMG 8349"
+      },
+      {
+        "src": "/images/mexico/IMG_8447.jpeg",
+        "alt": "IMG 8447",
+        "caption": "IMG 8447"
+      },
+      {
+        "src": "/images/mexico/IMG_8460.jpeg",
+        "alt": "IMG 8460",
+        "caption": "IMG 8460"
+      },
+      {
+        "src": "/images/mexico/IMG_9257.jpeg",
+        "alt": "IMG 9257",
+        "caption": "IMG 9257"
+      },
+      {
+        "src": "/images/mexico/IMG_9283.jpeg",
+        "alt": "IMG 9283",
+        "caption": "IMG 9283"
+      },
+      {
+        "src": "/images/mexico/IMG_9300.jpeg",
+        "alt": "IMG 9300",
+        "caption": "IMG 9300"
+      },
+      {
+        "src": "/images/mexico/IMG_9324.jpeg",
+        "alt": "IMG 9324",
+        "caption": "IMG 9324"
+      },
+      {
+        "src": "/images/mexico/IMG_9665.jpeg",
+        "alt": "IMG 9665",
+        "caption": "IMG 9665"
+      },
+      {
+        "src": "/images/mexico/IMG_9823.jpeg",
+        "alt": "IMG 9823",
+        "caption": "IMG 9823"
+      },
+      {
+        "src": "/images/mexico/IMG_9827.jpeg",
+        "alt": "IMG 9827",
+        "caption": "IMG 9827"
+      },
+      {
+        "src": "/images/mexico/IMG_9846.jpeg",
+        "alt": "IMG 9846",
+        "caption": "IMG 9846"
+      },
+      {
+        "src": "/images/mexico/IMG_9885.jpeg",
+        "alt": "IMG 9885",
+        "caption": "IMG 9885"
+      },
+      {
+        "src": "/images/mexico/IMG_9926.jpeg",
+        "alt": "IMG 9926",
+        "caption": "IMG 9926"
+      },
+      {
+        "src": "/images/mexico/IMG_9972.jpeg",
+        "alt": "IMG 9972",
+        "caption": "IMG 9972"
+      }
+    ]
+  },
   "nepal": {
     "name": "Nepal",
     "slug": "nepal",
