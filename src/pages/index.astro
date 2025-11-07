@@ -66,21 +66,32 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
     });
   }
 
-  // Randomize photos on page load
-  document.addEventListener('DOMContentLoaded', () => {
-    randomizePhotos();
-
-    // Add click handler to title to refresh photos
+  // Function to setup title click handler
+  function setupTitleClick() {
     const titleLink = document.querySelector('header a[href="/"]');
     if (titleLink) {
       titleLink.addEventListener('click', (e) => {
         // Only refresh if we're already on the home page
-        if (window.location.pathname === '/') {
+        if (window.location.pathname === '/' || window.location.pathname === '') {
           e.preventDefault();
           randomizePhotos();
+          // Scroll to top smoothly
+          window.scrollTo({ top: 0, behavior: 'smooth' });
         }
       });
     }
+  }
+
+  // Randomize photos on page load and after transitions
+  document.addEventListener('DOMContentLoaded', () => {
+    randomizePhotos();
+    setupTitleClick();
+  });
+
+  // Also handle Astro page transitions
+  document.addEventListener('astro:page-load', () => {
+    randomizePhotos();
+    setupTitleClick();
   });
 </script>
 
