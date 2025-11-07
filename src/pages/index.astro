@@ -13,7 +13,7 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <section class="justified-gallery" id="photoswipe">
     {
-      allPhotos.slice(0, 20).map((photo, index) => {
+      allPhotos.slice(0, 30).map((photo, index) => {
         return (
           <div
             style="--width: 400; --height: 400;"
@@ -47,7 +47,7 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
     const gallery = document.getElementById('photoswipe');
     if (!gallery) return;
 
-    const shuffled = shuffle(allPhotos).slice(0, 20);
+    const shuffled = shuffle(allPhotos).slice(0, 30);
     const containers = gallery.querySelectorAll('div');
 
     containers.forEach((container, index) => {
