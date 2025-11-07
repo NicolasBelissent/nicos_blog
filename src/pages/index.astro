@@ -94,25 +94,22 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
 
 <style>
   .justified-gallery {
-    --padding: max(2.5vw, 12px);
-    --space: max(2.5vw, 12px);
-    --min-height: clamp(200px, 20vw, 400px);
-
     max-width: 1400px;
     margin: 0 auto;
-    padding: var(--padding);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: var(--space);
+    padding: max(2.5vw, 12px);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: max(2.5vw, 12px);
+    justify-items: center;
 
     div {
-      flex-grow: calc(var(--width) * (100000 / var(--height)));
-      flex-basis: calc(var(--min-height) * (var(--width) / var(--height)));
-      aspect-ratio: var(--width) / var(--height);
+      width: 100%;
+      max-width: 450px;
+      aspect-ratio: 1;
       overflow: hidden;
       opacity: 1;
       transition: all 0.05s ease-in-out;
+      background: transparent;
     }
 
     div img {
@@ -126,10 +123,11 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
       transition: opacity 0.4s ease-in-out;
       opacity: 0;
     }
+  }
 
-    &::after {
-      content: " ";
-      flex-grow: 1000000000;
+  @media (min-width: 1024px) {
+    .justified-gallery {
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 </style>
