@@ -15,11 +15,8 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
     {
       allPhotos.slice(0, 20).map((photo, index) => {
         return (
-          <a
+          <div
             style="--width: 400; --height: 400;"
-            href={photo.src}
-            target="_blank"
-            data-fancybox="gallery"
             data-photo={JSON.stringify(photo)}
           >
             <img
@@ -27,7 +24,7 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
               alt={photo.alt}
               loading={index < 12 ? "eager" : "lazy"}
             />
-          </a>
+          </div>
         );
       })
     }
@@ -51,24 +48,18 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
     if (!gallery) return;
 
     const shuffled = shuffle(allPhotos).slice(0, 20);
-    const links = gallery.querySelectorAll('a');
+    const containers = gallery.querySelectorAll('div');
 
-    links.forEach((link, index) => {
+    containers.forEach((container, index) => {
       if (shuffled[index]) {
         const photo = shuffled[index];
-        const img = link.querySelector('img');
+        const img = container.querySelector('img');
         if (img) {
           img.src = photo.src;
           img.alt = photo.alt;
         }
-        link.href = photo.src;
       }
     });
-
-    // Re-initialize Fancybox after changing photos
-    if (typeof window.initFancybox === 'function') {
-      window.initFancybox();
-    }
   }
 
   // Function to setup title click handler
@@ -100,45 +91,6 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
   });
 </script>
 
-<script>
-  import { Fancybox } from "@fancyapps/ui";
-
-  function initFancybox() {
-    // Destroy existing instances first
-    Fancybox.destroy();
-
-    // Re-bind with fresh configuration
-    Fancybox.bind("[data-fancybox]", {
-      theme: "auto",
-      mainStyle: {
-        "--f-button-width": "44px",
-        "--f-button-height": "44px",
-        "--f-button-border-radius": "50%",
-        "--f-toolbar-padding": "16px",
-      },
-      Carousel: {
-        Arrows: false,
-        Toolbar: {
-          display: {
-            left: [],
-            middle: [],
-            right: ["close"],
-          },
-        },
-        transition: "slide",
-      },
-    });
-  }
-
-  // Make initFancybox available globally for randomization
-  window.initFancybox = initFancybox;
-
-  // Initialize on page load
-  document.addEventListener('DOMContentLoaded', initFancybox);
-
-  // Re-initialize on Astro page transitions
-  document.addEventListener('astro:page-load', initFancybox);
-</script>
 
 <style>
   .justified-gallery {
@@ -151,7 +103,7 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
     flex-wrap: wrap;
     gap: var(--space);
 
-    a {
+    div {
       flex-grow: calc(var(--width) * (100000 / var(--height)));
       flex-basis: calc(var(--min-height) * (var(--width) / var(--height)));
       aspect-ratio: var(--width) / var(--height);
@@ -160,23 +112,14 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
       transition: all 0.05s ease-in-out;
     }
 
-    a img {
+    div img {
       display: block;
       object-fit: contain;
       height: 100%;
       width: 100%;
     }
 
-    a:focus-visible {
-      outline: 3px solid var(--outline);
-      outline-offset: 2px;
-      transform: scale(1.05);
-      z-index: 1;
-      border-radius: 2px;
-      box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.1);
-    }
-
-    a.hidden {
+    div.hidden {
       transition: opacity 0.4s ease-in-out;
       opacity: 0;
     }
