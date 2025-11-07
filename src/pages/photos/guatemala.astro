@@ -1,0 +1,33 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import BackToPrev from "@components/BackToPrev.astro";
+import { getCountryPhotos } from "@data/photos";
+
+const country = getCountryPhotos("guatemala");
+if (!country) return Astro.redirect("/photos");
+---
+
+<PageLayout title={`${country.name} Photos`} description={`Photos from ${country.name}`}>
+  <Container>
+    <div class="animate">
+      <BackToPrev href="/photos">
+        Back to photos
+      </BackToPrev>
+    </div>
+    <div class="my-10">
+      <h1 class="animate text-4xl font-display font-semibold text-black dark:text-white">{country.name}</h1>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {country.photos.map((photo) => (
+        <div class="animate overflow-hidden rounded-lg">
+          <img
+            src={photo.src}
+            alt={photo.alt}
+            class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+      ))}
+    </div>
+  </Container>
+</PageLayout>

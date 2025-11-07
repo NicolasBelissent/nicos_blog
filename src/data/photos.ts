@@ -11,6 +11,62 @@ export type Country = {
 };
 
 export const photosByCountry: Record<string, Country> = {
+  "guatemala": {
+    "name": "Guatemala",
+    "slug": "guatemala",
+    "photos": [
+      {
+        "src": "/images/guatemala/IMG_0124.jpeg",
+        "alt": "IMG 0124",
+        "caption": "IMG 0124"
+      },
+      {
+        "src": "/images/guatemala/IMG_0172.jpeg",
+        "alt": "IMG 0172",
+        "caption": "IMG 0172"
+      },
+      {
+        "src": "/images/guatemala/IMG_0188.jpeg",
+        "alt": "IMG 0188",
+        "caption": "IMG 0188"
+      },
+      {
+        "src": "/images/guatemala/IMG_0206.jpeg",
+        "alt": "IMG 0206",
+        "caption": "IMG 0206"
+      },
+      {
+        "src": "/images/guatemala/IMG_0207.jpeg",
+        "alt": "IMG 0207",
+        "caption": "IMG 0207"
+      },
+      {
+        "src": "/images/guatemala/IMG_0238.jpeg",
+        "alt": "IMG 0238",
+        "caption": "IMG 0238"
+      },
+      {
+        "src": "/images/guatemala/IMG_0267.jpeg",
+        "alt": "IMG 0267",
+        "caption": "IMG 0267"
+      },
+      {
+        "src": "/images/guatemala/IMG_0272.jpeg",
+        "alt": "IMG 0272",
+        "caption": "IMG 0272"
+      },
+      {
+        "src": "/images/guatemala/IMG_0296.jpeg",
+        "alt": "IMG 0296",
+        "caption": "IMG 0296"
+      },
+      {
+        "src": "/images/guatemala/IMG_0452.jpeg",
+        "alt": "IMG 0452",
+        "caption": "IMG 0452"
+      }
+    ]
+  },
   "nepal": {
     "name": "Nepal",
     "slug": "nepal",
