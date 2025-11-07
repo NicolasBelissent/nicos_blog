@@ -31,6 +31,11 @@ export const photosByCountry: Record<string, Country> = {
         "caption": "IMG 0188"
       },
       {
+        "src": "/images/guatemala/IMG_0206.webp",
+        "alt": "IMG 0206",
+        "caption": "IMG 0206"
+      },
+      {
         "src": "/images/guatemala/IMG_0207.webp",
         "alt": "IMG 0207",
         "caption": "IMG 0207"
