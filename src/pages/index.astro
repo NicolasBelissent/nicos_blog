@@ -45,8 +45,8 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
     return arr;
   }
 
-  // Randomize photos on page load
-  document.addEventListener('DOMContentLoaded', () => {
+  // Function to randomize photos
+  function randomizePhotos() {
     const gallery = document.getElementById('photoswipe');
     if (!gallery) return;
 
@@ -64,6 +64,23 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
         link.href = photo.src;
       }
     });
+  }
+
+  // Randomize photos on page load
+  document.addEventListener('DOMContentLoaded', () => {
+    randomizePhotos();
+
+    // Add click handler to title to refresh photos
+    const titleLink = document.querySelector('header a[href="/"]');
+    if (titleLink) {
+      titleLink.addEventListener('click', (e) => {
+        // Only refresh if we're already on the home page
+        if (window.location.pathname === '/') {
+          e.preventDefault();
+          randomizePhotos();
+        }
+      });
+    }
   });
 </script>
 
