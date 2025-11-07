@@ -49,13 +49,28 @@ import { SITE } from "@consts";
   </Container>
 </header>
 
-<script>
+<script is:inline>
   function setupThemeToggle() {
     const themeToggle = document.getElementById('theme-toggle');
     if (!themeToggle) return;
 
     themeToggle.addEventListener('click', () => {
       const isDark = document.documentElement.classList.contains('dark');
+
+      // Create CSS to disable transitions during theme change
+      const css = document.createElement("style");
+      css.appendChild(
+        document.createTextNode(
+          `* {
+             -webkit-transition: none !important;
+             -moz-transition: none !important;
+             -o-transition: none !important;
+             -ms-transition: none !important;
+             transition: none !important;
+          }`
+        )
+      );
+      document.head.appendChild(css);
 
       if (isDark) {
         localStorage.setItem('theme', 'light');
@@ -64,6 +79,10 @@ import { SITE } from "@consts";
         localStorage.setItem('theme', 'dark');
         document.documentElement.classList.add('dark');
       }
+
+      // Force reflow and remove transition disabling
+      window.getComputedStyle(css).opacity;
+      document.head.removeChild(css);
     });
   }
 
