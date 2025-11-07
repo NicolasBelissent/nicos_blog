@@ -325,6 +325,87 @@ export const photosByCountry: Record<string, Country> = {
         "caption": "img 7100"
       }
     ]
+  },
+  "tanzania": {
+    "name": "Tanzania",
+    "slug": "tanzania",
+    "photos": [
+      {
+        "src": "/images/tanzania/0002_35A.webp",
+        "alt": "0002 35A",
+        "caption": "0002 35A"
+      },
+      {
+        "src": "/images/tanzania/0004_33A.webp",
+        "alt": "0004 33A",
+        "caption": "0004 33A"
+      },
+      {
+        "src": "/images/tanzania/0005_32A.webp",
+        "alt": "0005 32A",
+        "caption": "0005 32A"
+      },
+      {
+        "src": "/images/tanzania/0016_21A.webp",
+        "alt": "0016 21A",
+        "caption": "0016 21A"
+      },
+      {
+        "src": "/images/tanzania/0017_20A.webp",
+        "alt": "0017 20A",
+        "caption": "0017 20A"
+      },
+      {
+        "src": "/images/tanzania/0018_19A.webp",
+        "alt": "0018 19A",
+        "caption": "0018 19A"
+      },
+      {
+        "src": "/images/tanzania/0019_18A.webp",
+        "alt": "0019 18A",
+        "caption": "0019 18A"
+      },
+      {
+        "src": "/images/tanzania/0020_17A.webp",
+        "alt": "0020 17A",
+        "caption": "0020 17A"
+      },
+      {
+        "src": "/images/tanzania/0022_15.webp",
+        "alt": "0022 15",
+        "caption": "0022 15"
+      },
+      {
+        "src": "/images/tanzania/0023_14.webp",
+        "alt": "0023 14",
+        "caption": "0023 14"
+      },
+      {
+        "src": "/images/tanzania/0027_10.webp",
+        "alt": "0027 10",
+        "caption": "0027 10"
+      },
+      {
+        "src": "/images/tanzania/0030_7.webp",
+        "alt": "0030 7",
+        "caption": "0030 7"
+      },
+      {
+        "src": "/images/tanzania/0032_5.webp",
+        "alt": "0032 5",
+        "caption": "0032 5"
+      },
+      {
+        "src": "/images/tanzania/0034_3.webp",
+        "alt": "0034 3",
+        "caption": "0034 3"
+      },
+      {
+        "src": "/images/tanzania/0035_2.webp",
+        "alt": "0035 2",
+        "caption": "0035 2"
+      }
+    ]
   }
 };
 
