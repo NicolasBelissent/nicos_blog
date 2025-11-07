@@ -11,7 +11,8 @@
     "astro": "astro",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "photos": "node scripts/generate-photos.js"
+    "photos": "node scripts/generate-photos.js",
+    "optimize-images": "node scripts/optimize-images.js"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",

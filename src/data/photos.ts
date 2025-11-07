@@ -16,52 +16,52 @@ export const photosByCountry: Record<string, Country> = {
     "slug": "guatemala",
     "photos": [
       {
-        "src": "/images/guatemala/IMG_0124.jpeg",
+        "src": "/images/guatemala/IMG_0124.webp",
         "alt": "IMG 0124",
         "caption": "IMG 0124"
       },
       {
-        "src": "/images/guatemala/IMG_0172.jpeg",
+        "src": "/images/guatemala/IMG_0172.webp",
         "alt": "IMG 0172",
         "caption": "IMG 0172"
       },
       {
-        "src": "/images/guatemala/IMG_0188.jpeg",
+        "src": "/images/guatemala/IMG_0188.webp",
         "alt": "IMG 0188",
         "caption": "IMG 0188"
       },
       {
-        "src": "/images/guatemala/IMG_0206.jpeg",
+        "src": "/images/guatemala/IMG_0206.webp",
         "alt": "IMG 0206",
         "caption": "IMG 0206"
       },
       {
-        "src": "/images/guatemala/IMG_0207.jpeg",
+        "src": "/images/guatemala/IMG_0207.webp",
         "alt": "IMG 0207",
         "caption": "IMG 0207"
       },
       {
-        "src": "/images/guatemala/IMG_0238.jpeg",
+        "src": "/images/guatemala/IMG_0238.webp",
         "alt": "IMG 0238",
         "caption": "IMG 0238"
       },
       {
-        "src": "/images/guatemala/IMG_0267.jpeg",
+        "src": "/images/guatemala/IMG_0267.webp",
         "alt": "IMG 0267",
         "caption": "IMG 0267"
       },
       {
-        "src": "/images/guatemala/IMG_0272.jpeg",
+        "src": "/images/guatemala/IMG_0272.webp",
         "alt": "IMG 0272",
         "caption": "IMG 0272"
       },
       {
-        "src": "/images/guatemala/IMG_0296.jpeg",
+        "src": "/images/guatemala/IMG_0296.webp",
         "alt": "IMG 0296",
         "caption": "IMG 0296"
       },
       {
-        "src": "/images/guatemala/IMG_0452.jpeg",
+        "src": "/images/guatemala/IMG_0452.webp",
         "alt": "IMG 0452",
         "caption": "IMG 0452"
       }
@@ -72,87 +72,87 @@ export const photosByCountry: Record<string, Country> = {
     "slug": "mexico",
     "photos": [
       {
-        "src": "/images/mexico/IMG_0019.jpeg",
+        "src": "/images/mexico/IMG_0019.webp",
         "alt": "IMG 0019",
         "caption": "IMG 0019"
       },
       {
-        "src": "/images/mexico/IMG_8178.jpeg",
+        "src": "/images/mexico/IMG_8178.webp",
         "alt": "IMG 8178",
         "caption": "IMG 8178"
       },
       {
-        "src": "/images/mexico/IMG_8194.jpeg",
+        "src": "/images/mexico/IMG_8194.webp",
         "alt": "IMG 8194",
         "caption": "IMG 8194"
       },
       {
-        "src": "/images/mexico/IMG_8349.jpeg",
+        "src": "/images/mexico/IMG_8349.webp",
         "alt": "IMG 8349",
         "caption": "IMG 8349"
       },
       {
-        "src": "/images/mexico/IMG_8447.jpeg",
+        "src": "/images/mexico/IMG_8447.webp",
         "alt": "IMG 8447",
         "caption": "IMG 8447"
       },
       {
-        "src": "/images/mexico/IMG_8460.jpeg",
+        "src": "/images/mexico/IMG_8460.webp",
         "alt": "IMG 8460",
         "caption": "IMG 8460"
       },
       {
-        "src": "/images/mexico/IMG_9257.jpeg",
+        "src": "/images/mexico/IMG_9257.webp",
         "alt": "IMG 9257",
         "caption": "IMG 9257"
       },
       {
-        "src": "/images/mexico/IMG_9283.jpeg",
+        "src": "/images/mexico/IMG_9283.webp",
         "alt": "IMG 9283",
         "caption": "IMG 9283"
       },
       {
-        "src": "/images/mexico/IMG_9300.jpeg",
+        "src": "/images/mexico/IMG_9300.webp",
         "alt": "IMG 9300",
         "caption": "IMG 9300"
       },
       {
-        "src": "/images/mexico/IMG_9324.jpeg",
+        "src": "/images/mexico/IMG_9324.webp",
         "alt": "IMG 9324",
         "caption": "IMG 9324"
       },
       {
-        "src": "/images/mexico/IMG_9665.jpeg",
+        "src": "/images/mexico/IMG_9665.webp",
         "alt": "IMG 9665",
         "caption": "IMG 9665"
       },
       {
-        "src": "/images/mexico/IMG_9823.jpeg",
+        "src": "/images/mexico/IMG_9823.webp",
         "alt": "IMG 9823",
         "caption": "IMG 9823"
       },
       {
-        "src": "/images/mexico/IMG_9827.jpeg",
+        "src": "/images/mexico/IMG_9827.webp",
         "alt": "IMG 9827",
         "caption": "IMG 9827"
       },
       {
-        "src": "/images/mexico/IMG_9846.jpeg",
+        "src": "/images/mexico/IMG_9846.webp",
         "alt": "IMG 9846",
         "caption": "IMG 9846"
       },
       {
-        "src": "/images/mexico/IMG_9885.jpeg",
+        "src": "/images/mexico/IMG_9885.webp",
         "alt": "IMG 9885",
         "caption": "IMG 9885"
       },
       {
-        "src": "/images/mexico/IMG_9926.jpeg",
+        "src": "/images/mexico/IMG_9926.webp",
         "alt": "IMG 9926",
         "caption": "IMG 9926"
       },
       {
-        "src": "/images/mexico/IMG_9972.jpeg",
+        "src": "/images/mexico/IMG_9972.webp",
         "alt": "IMG 9972",
         "caption": "IMG 9972"
       }

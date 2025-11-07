@@ -64,6 +64,11 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
         link.href = photo.src;
       }
     });
+
+    // Re-initialize Fancybox after changing photos
+    if (typeof window.initFancybox === 'function') {
+      window.initFancybox();
+    }
   }
 
   // Function to setup title click handler
@@ -98,26 +103,41 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
 <script>
   import { Fancybox } from "@fancyapps/ui";
 
-  Fancybox.bind("[data-fancybox]", {
-    theme: "auto",
-    mainStyle: {
-      "--f-button-width": "44px",
-      "--f-button-height": "44px",
-      "--f-button-border-radius": "50%",
-      "--f-toolbar-padding": "16px",
-    },
-    Carousel: {
-      Arrows: false,
-      Toolbar: {
-        display: {
-          left: [],
-          middle: [],
-          right: ["close"],
-        },
+  function initFancybox() {
+    // Destroy existing instances first
+    Fancybox.destroy();
+
+    // Re-bind with fresh configuration
+    Fancybox.bind("[data-fancybox]", {
+      theme: "auto",
+      mainStyle: {
+        "--f-button-width": "44px",
+        "--f-button-height": "44px",
+        "--f-button-border-radius": "50%",
+        "--f-toolbar-padding": "16px",
       },
-      transition: "slide",
-    },
-  });
+      Carousel: {
+        Arrows: false,
+        Toolbar: {
+          display: {
+            left: [],
+            middle: [],
+            right: ["close"],
+          },
+        },
+        transition: "slide",
+      },
+    });
+  }
+
+  // Make initFancybox available globally for randomization
+  window.initFancybox = initFancybox;
+
+  // Initialize on page load
+  document.addEventListener('DOMContentLoaded', initFancybox);
+
+  // Re-initialize on Astro page transitions
+  document.addEventListener('astro:page-load', initFancybox);
 </script>
 
 <style>

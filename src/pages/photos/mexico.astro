@@ -3,6 +3,7 @@ import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import BackToPrev from "@components/BackToPrev.astro";
 import { getCountryPhotos } from "@data/photos";
+import { Image } from "astro:assets";
 
 const country = getCountryPhotos("mexico");
 if (!country) return Astro.redirect("/photos");
@@ -19,11 +20,15 @@ if (!country) return Astro.redirect("/photos");
       <h1 class="animate text-4xl font-display font-semibold text-black dark:text-white">{country.name}</h1>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      {country.photos.map((photo) => (
-        <div class="animate overflow-hidden rounded-lg">
+      {country.photos.map((photo, index) => (
+        <div class="animate overflow-hidden rounded-lg aspect-square bg-neutral-200 dark:bg-neutral-800">
           <img
             src={photo.src}
             alt={photo.alt}
+            loading={index < 6 ? "eager" : "lazy"}
+            decoding="async"
+            width="800"
+            height="800"
             class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
           />
         </div>
