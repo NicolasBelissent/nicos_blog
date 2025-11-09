@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "dev:network": "astro dev --host",
-    "build": "npm run sync-photos && astro check && astro build",
+    "build": "npm run optimize-images && npm run sync-photos && astro check && astro build",
     "preview": "astro preview",
     "preview:network": "astro preview --host",
     "astro": "astro",
