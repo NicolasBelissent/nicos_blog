@@ -78,13 +78,7 @@ const allPhotos = Object.values(photosByCountry).flatMap(country =>
     }
   }
 
-  // Randomize photos on page load and after transitions
-  document.addEventListener('DOMContentLoaded', () => {
-    randomizePhotos();
-    setupTitleClick();
-  });
-
-  // Also handle Astro page transitions
+  // Randomize photos on initial load and after Astro transitions
   document.addEventListener('astro:page-load', () => {
     randomizePhotos();
     setupTitleClick();

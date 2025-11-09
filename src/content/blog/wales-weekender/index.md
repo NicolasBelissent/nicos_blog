@@ -12,7 +12,7 @@ Having moved to two ends of London earlier in the year, Will and I weren't seein
 
 We met after work at Euston to catch an evening train up to Bangor, the largest city of North Wales—a big name to live up to. A three-hour journey got us to the Traxx Hotel at around 8pm. We checked in to our seedy twin room and went out to stock up on fuel for the two days of riding to come: welsh cakes, chocolate and raisin, from the closest shop we could hobble to in our cycling shoes.
 
-We set off in the early hours heading south on a railway cycle path leaving the Irish Sea and Bangor behind us. The riding was smooth, the air was crisp and the roads were empty. In hindsight, a very calm start to a big day outWe made it up to a viewpoint at around 10am where we got our first sights of Snowdon and Anglesey Island.
+We set off in the early hours heading south on a railway cycle path leaving the Irish Sea and Bangor behind us. The riding was smooth, the air was crisp and the roads were empty. In hindsight, a very calm start to a big day out. We made it up to a viewpoint at around 10am where we got our first sights of Snowdon and Anglesey Island.
 
 From there we descended into an abandoned slate quarry all the way. Dark rocky trails sinuating through rusty mineshafts and other mining equipment. Felt like we were on a cowboy film set, as if we'd turn a corner and witness a shootout.
 
@@ -66,7 +66,7 @@ Jan's blueberry pancakes and unlimited French press for breakfast and we were ou
 
 The air was colder but the sky was clear. We caught some incredible riding alongside the Claerwen Reservoir and then up the valley. We were even treated to a 'testing' two-kilometre long hike-a-bike through the moor. The ride slowly became smoother along larger forest road. More forest fire roads, single track and rolling gravel.
 
-Around midday we arrived in Breacon, the midway point between the centre of Wales and Cardiff, our end destination. Despite being the northern gateway to the Brecon Beacons, Brecon didn't have much going for itself apart from a few British high street classics: Superdrug, Betfred, Greggs.
+Around midday we arrived in Brecon, the midway point between the centre of Wales and Cardiff, our end destination. Despite being the northern gateway to the Brecon Beacons, Brecon didn't have much going for itself apart from a few British high street classics: Superdrug, Betfred, Greggs.
 
 We needed fuel and Greggs had it. Pack of doughnuts, pizza slice, vegan sausage roll and we were back on the saddle, bloated but well fed. The climb up to the final pass was not far from what we expected: rocky and steep. With food already gurgling up our throats we gave up easily and resorted to pushing our bikes most of the way.
 

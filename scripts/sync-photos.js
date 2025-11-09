@@ -4,7 +4,7 @@ import { existsSync } from 'fs';
 
 const IMAGES_DIR = join(process.cwd(), 'public', 'images');
 const OUTPUT_FILE = join(process.cwd(), 'src', 'data', 'photos.ts');
-const EXCLUDED_COUNTRIES = new Set(['wales']);
+const EXCLUDED_COUNTRIES = new Set(['wales', 'belgium']);
 
 async function getCountryFolders() {
   const entries = await readdir(IMAGES_DIR, { withFileTypes: true });

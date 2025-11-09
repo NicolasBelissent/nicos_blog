@@ -11,37 +11,6 @@ export type Country = {
 };
 
 export const photosByCountry: Record<string, Country> = {
-  "belgium": {
-    "name": "Belgium",
-    "slug": "belgium",
-    "photos": [
-      {
-        "src": "/images/belgium/belg1.jpg",
-        "alt": "Belg1",
-        "caption": "Belg1"
-      },
-      {
-        "src": "/images/belgium/belg2.jpg",
-        "alt": "Belg2",
-        "caption": "Belg2"
-      },
-      {
-        "src": "/images/belgium/belg3.jpg",
-        "alt": "Belg3",
-        "caption": "Belg3"
-      },
-      {
-        "src": "/images/belgium/belg4.jpg",
-        "alt": "Belg4",
-        "caption": "Belg4"
-      },
-      {
-        "src": "/images/belgium/belg5.jpg",
-        "alt": "Belg5",
-        "caption": "Belg5"
-      }
-    ]
-  },
   "guatemala": {
     "name": "Guatemala",
     "slug": "guatemala",
@@ -95,6 +64,152 @@ export const photosByCountry: Record<string, Country> = {
         "src": "/images/guatemala/IMG_0452.webp",
         "alt": "IMG 0452",
         "caption": "IMG 0452"
+      }
+    ]
+  },
+  "india": {
+    "name": "India",
+    "slug": "india",
+    "photos": [
+      {
+        "src": "/images/india/4F412AFE-3B66-4EA0-8456-608BAA1CD14B.JPG",
+        "alt": "4F412AFE 3B66 4EA0 8456 608BAA1CD14B",
+        "caption": "4F412AFE 3B66 4EA0 8456 608BAA1CD14B"
+      },
+      {
+        "src": "/images/india/56C7B07C-FC61-48BF-9F71-A063222994B1.JPG",
+        "alt": "56C7B07C FC61 48BF 9F71 A063222994B1",
+        "caption": "56C7B07C FC61 48BF 9F71 A063222994B1"
+      },
+      {
+        "src": "/images/india/F90BA508-DD6A-4536-827D-CA8C4D2025DD.JPG",
+        "alt": "F90BA508 DD6A 4536 827D CA8C4D2025DD",
+        "caption": "F90BA508 DD6A 4536 827D CA8C4D2025DD"
+      },
+      {
+        "src": "/images/india/IMG_1917.JPG",
+        "alt": "IMG 1917",
+        "caption": "IMG 1917"
+      },
+      {
+        "src": "/images/india/IMG_2181.JPG",
+        "alt": "IMG 2181",
+        "caption": "IMG 2181"
+      },
+      {
+        "src": "/images/india/IMG_2191.JPG",
+        "alt": "IMG 2191",
+        "caption": "IMG 2191"
+      },
+      {
+        "src": "/images/india/IMG_2237.JPG",
+        "alt": "IMG 2237",
+        "caption": "IMG 2237"
+      },
+      {
+        "src": "/images/india/IMG_2303.JPG",
+        "alt": "IMG 2303",
+        "caption": "IMG 2303"
+      },
+      {
+        "src": "/images/india/IMG_2339.jpg",
+        "alt": "IMG 2339",
+        "caption": "IMG 2339"
+      },
+      {
+        "src": "/images/india/IMG_2348.JPG",
+        "alt": "IMG 2348",
+        "caption": "IMG 2348"
+      },
+      {
+        "src": "/images/india/IMG_2353.JPG",
+        "alt": "IMG 2353",
+        "caption": "IMG 2353"
+      },
+      {
+        "src": "/images/india/IMG_2382.JPG",
+        "alt": "IMG 2382",
+        "caption": "IMG 2382"
+      },
+      {
+        "src": "/images/india/IMG_2473.JPG",
+        "alt": "IMG 2473",
+        "caption": "IMG 2473"
+      },
+      {
+        "src": "/images/india/IMG_2581.JPG",
+        "alt": "IMG 2581",
+        "caption": "IMG 2581"
+      },
+      {
+        "src": "/images/india/IMG_2632.JPG",
+        "alt": "IMG 2632",
+        "caption": "IMG 2632"
+      },
+      {
+        "src": "/images/india/IMG_2672.JPG",
+        "alt": "IMG 2672",
+        "caption": "IMG 2672"
+      },
+      {
+        "src": "/images/india/IMG_2936.jpg",
+        "alt": "IMG 2936",
+        "caption": "IMG 2936"
+      },
+      {
+        "src": "/images/india/IMG_3134.jpg",
+        "alt": "IMG 3134",
+        "caption": "IMG 3134"
+      },
+      {
+        "src": "/images/india/IMG_3294.jpg",
+        "alt": "IMG 3294",
+        "caption": "IMG 3294"
+      },
+      {
+        "src": "/images/india/IMG_3400.jpg",
+        "alt": "IMG 3400",
+        "caption": "IMG 3400"
+      },
+      {
+        "src": "/images/india/IMG_3509.JPG",
+        "alt": "IMG 3509",
+        "caption": "IMG 3509"
+      },
+      {
+        "src": "/images/india/IMG_3572.JPG",
+        "alt": "IMG 3572",
+        "caption": "IMG 3572"
+      },
+      {
+        "src": "/images/india/IMG_3768.jpg",
+        "alt": "IMG 3768",
+        "caption": "IMG 3768"
+      },
+      {
+        "src": "/images/india/IMG_3802.jpg",
+        "alt": "IMG 3802",
+        "caption": "IMG 3802"
+      },
+      {
+        "src": "/images/india/IMG_3804.jpg",
+        "alt": "IMG 3804",
+        "caption": "IMG 3804"
+      },
+      {
+        "src": "/images/india/IMG_3836.jpg",
+        "alt": "IMG 3836",
+        "caption": "IMG 3836"
+      },
+      {
+        "src": "/images/india/IMG_3850.jpg",
+        "alt": "IMG 3850",
+        "caption": "IMG 3850"
+      },
+      {
+        "src": "/images/india/IMG_3943.jpg",
+        "alt": "IMG 3943",
+        "caption": "IMG 3943"
       }
     ]
   },
@@ -186,6 +301,62 @@ export const photosByCountry: Record<string, Country> = {
         "src": "/images/mexico/IMG_9972.webp",
         "alt": "IMG 9972",
         "caption": "IMG 9972"
+      }
+    ]
+  },
+  "miscellaneous": {
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "photos": [
+      {
+        "src": "/images/miscellaneous/IMG_4522.JPG",
+        "alt": "IMG 4522",
+        "caption": "IMG 4522"
+      },
+      {
+        "src": "/images/miscellaneous/IMG_4523.JPG",
+        "alt": "IMG 4523",
+        "caption": "IMG 4523"
+      },
+      {
+        "src": "/images/miscellaneous/IMG_4525.JPG",
+        "alt": "IMG 4525",
+        "caption": "IMG 4525"
+      },
+      {
+        "src": "/images/miscellaneous/IMG_4539.JPG",
+        "alt": "IMG 4539",
+        "caption": "IMG 4539"
+      },
+      {
+        "src": "/images/miscellaneous/IMG_8948.jpg",
+        "alt": "IMG 8948",
+        "caption": "IMG 8948"
+      },
+      {
+        "src": "/images/miscellaneous/IMG_9609.JPG",
+        "alt": "IMG 9609",
+        "caption": "IMG 9609"
+      },
+      {
+        "src": "/images/miscellaneous/IMG_9611.JPG",
+        "alt": "IMG 9611",
+        "caption": "IMG 9611"
+      },
+      {
+        "src": "/images/miscellaneous/IMG_9612.JPG",
+        "alt": "IMG 9612",
+        "caption": "IMG 9612"
+      },
+      {
+        "src": "/images/miscellaneous/IMG_9613.JPG",
+        "alt": "IMG 9613",
+        "caption": "IMG 9613"
+      },
+      {
+        "src": "/images/miscellaneous/IMG_9930.jpg",
+        "alt": "IMG 9930",
+        "caption": "IMG 9930"
       }
     ]
   },
