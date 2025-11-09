@@ -35,7 +35,7 @@ After nearly 160km of riding and a few torrential downpours, we checked into our
 
 One. Two. Three. Kaput. We blamed the length of our ride, but the beers were doing the majority of the damage.
 
-Hungover, the next day we set out slowly, hoping the cobbles would shake out the beers from the night before. The day was far from smooth**—**I had linked together as many Ronde climbs that I could without looping. The Ronde Den Vlaaderen is an iconing spring classic (big day race), notourious for slippery cobbles and agressive riding. With a bunch of these punchy climbs to choose from, we put our bikes and wrists to the test and went for the Paterberg, the Muur van Geraardsbergen, the Koppenberg, and the Oude Kwaremont. More than enough for our heavy legs.
+Hungover, the next day we set out slowly, hoping the cobbles would shake out the beers from the night before. The day was far from smooth. I had linked together as many Ronde climbs that I could without looping. The Ronde Den Vlaaderen is an iconing spring classic (big day race), notourious for slippery cobbles and agressive riding. With a bunch of these punchy climbs to choose from, we put our bikes and wrists to the test and went for the Paterberg, the Muur van Geraardsbergen, the Koppenberg, and the Oude Kwaremont. More than enough for our heavy legs.
 
 The climbs were so steep and bumpy that you'd have to balance not going too fast to not burn out mid-18% climb, but also not go too slow to avoid tripping your front wheel on the odd lopsided cobble.
 
