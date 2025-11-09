@@ -4,11 +4,17 @@ import { existsSync } from 'fs';
 
 const IMAGES_DIR = join(process.cwd(), 'public', 'images');
 const OUTPUT_FILE = join(process.cwd(), 'src', 'data', 'photos.ts');
+const EXCLUDED_COUNTRIES = new Set(['wales']);
 
 async function getCountryFolders() {
   const entries = await readdir(IMAGES_DIR, { withFileTypes: true });
   return entries
-    .filter(entry => entry.isDirectory() && !entry.name.includes('-original') && !entry.name.includes('-optimized'))
+    .filter(entry =>
+      entry.isDirectory() &&
+      !entry.name.includes('-original') &&
+      !entry.name.includes('-optimized') &&
+      !EXCLUDED_COUNTRIES.has(entry.name)
+    )
     .map(entry => entry.name);
 }
 
