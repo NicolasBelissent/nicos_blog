@@ -3,7 +3,9 @@ import { readdir, mkdir } from 'fs/promises';
 import { join, extname } from 'path';
 import { existsSync } from 'fs';
 
-const COUNTRIES = ['mexico', 'guatemala', 'nepal', 'senegal', 'thailand', 'tanzania', 'india'];
+const DEFAULT_COUNTRIES = ['mexico', 'guatemala', 'nepal', 'senegal', 'thailand', 'tanzania', 'india', 'belgium'];
+const cliCountries = process.argv.slice(2).map(arg => arg.toLowerCase());
+const COUNTRIES = cliCountries.length > 0 ? cliCountries : DEFAULT_COUNTRIES;
 const MAX_WIDTH = 1200;
 const QUALITY = 80;
 

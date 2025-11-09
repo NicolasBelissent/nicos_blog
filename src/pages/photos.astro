@@ -2,10 +2,10 @@
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import { getAllCountries } from "@data/photos";
+import { EXCLUDED_PHOTO_SET } from "@data/photosConfig";
 
-const excludedSlugs = new Set(["miscellaneous"]);
 const countries = getAllCountries();
-const visibleCountries = countries.filter(country => !excludedSlugs.has(country.slug));
+const visibleCountries = countries.filter(country => !EXCLUDED_PHOTO_SET.has(country.slug));
 // Get one random photo per country for the cover
 const photoCollections = visibleCountries.map(country => {
   const randomIndex = Math.floor(Math.random() * country.photos.length);

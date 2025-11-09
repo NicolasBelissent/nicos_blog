@@ -17,7 +17,7 @@ The route took us along the channel, crossing into Belgium relatively quickly. I
 Ostend was everything I could expect from a seaside Belgian town in September. Buildings on the coast looking out on a long flat beach, fast food stands selling chips with mayo and sand covered cycling paths.
 
   <figure style="margin: 0; text-align: center;">
-  <img src="/images/belgium/belg1.jpg" alt="Chip Shop in Ostend" style="max-width: 600px; width: 100%;">
+  <img src="/images/belgium-optimized/belg1.webp" alt="Chip Shop in Ostend" style="max-width: 600px; width: 100%;">
 </figure>
 Once we got the chips we had no complaints, the belgians know their chips. But getting our order in was the hard part. We had forgotten about the language divide between Flanders and Wallonia: no more French, barely English, only Flemish.
 
@@ -26,7 +26,7 @@ Full of potato and chilli mayo, we pushed on across the Belgian countryside hopp
 Bruges was grab and go. We wanted to get to Ghent.
 
   <figure style="margin: 0; text-align: center;">
-  <img src="/images/belgium/belg4.jpg" alt="The canals of Bruges" style="max-width: 600px; width: 100%;">
+  <img src="/images/belgium-optimized/belg4.webp" alt="The canals of Bruges" style="max-width: 600px; width: 100%;">
 </figure>
 
 After nearly 160km of riding and a few torrential downpours, we checked into our place but we wasted no time. With only one night in Belgium we had to get on the local beers.
@@ -43,21 +43,25 @@ With 80km left on the day we quickly shook the lactic out of our legs and contin
 
 <div style="display: flex; gap: 15px; flex-wrap: wrap; justify-content: center;">
   <figure style="margin: 0; text-align: center; flex: 1; max-width: 400px; min-width: 200px;">
-    <img src="/images/belgium/belg2.jpg" alt="Refuel in Ourdenaade" style="width: 100%;">
+    <img src="/images/belgium-optimized/belg2.webp" alt="Refuel in Ourdenaade" style="width: 100%;">
     </figure>  
     <figure style="margin: 0; text-align: center; flex: 1; max-width: 400px; min-width: 200px;">
-  <img src="/images/belgium/belg3.jpg" alt="Finlay and the belgian cows" style="width: 100%;">
+  <img src="/images/belgium-optimized/belg3.webp" alt="Finlay and the belgian cows" style="width: 100%;">
   </figure>  
 </div>
 
 A loop of the iconic Roubaix track and we slowly made it to Finlay's friend's place who was hosting us for the night. Saturdays in Lille call for one thing: beers. We couldn't really say no—despite wanting the bed.
 
-Back at 1 a.m., up at 8. We woke early, grabbed burnt coffee in a PMU bar that still smelled like it had been pouring Kronenbourg hours before, and then rode into a headwind, racing just to stay on schedule. The Nord-Pas-de-Calais delivered everything it’s known for: endless flatland, potato farms, and stubborn grey skies. Fatigue blurred the ride; conversation faded. We tried to catch a train from there to skip some distance, but French rail strikes and delays kept us in the saddle. We pushed harder, fighting wind and time, and finally rolled back into our original meeting spot from day one: the one and only Dunkirk.
+Back at 1 a.m., up at 8. We woke early, grabbed burnt coffee in a PMU bar that still smelled like it had been pouring Kronenbourg hours before, and then rode into a headwind, racing just to stay on schedule. The Nord-Pas-de-Calais delivered everything it’s known for: endless flatland, potato farms, and stubborn grey skies. Fatigue blurred the ride; conversation faded. We tried to catch a train at Hazebrouck to skip some distance, but French rail strikes and delays kept us in the saddle. We pushed harder, fighting wind and time, and finally rolled back into our original meeting spot from day one: the one and only Dunkirk.
 
   <figure style="margin: 0; text-align: center;">
-  <img src="/images/belgium/belg5.jpg" alt="Zooming through the Fladers forests" style="max-width: 600px; width: 100%;">
+  <img src="/images/belgium-optimized/belg5.webp" alt="Zooming through the Fladers forests" style="max-width: 600px; width: 100%;">
 </figure>
 
 Given our respective rushes to catch our rides home, we unclipped, hugged and parted ways. Another great adventure, paving (or cobbling) the way for many more to come.
 
-If you're interested in riding the route check it out [here](www.google.com).
+If you're interested in riding the route, check out these links.
+
+- [Dunkirk → Ghent](https://ridewithgps.com/routes/48124813)
+- [Ghent → Lille via the Ronde climbs](https://ridewithgps.com/routes/48124982)
+- [Lille → Dunkirk](https://ridewithgps.com/routes/48124636)
