@@ -11,6 +11,37 @@ export type Country = {
 };
 
 export const photosByCountry: Record<string, Country> = {
+  "belgium": {
+    "name": "Belgium",
+    "slug": "belgium",
+    "photos": [
+      {
+        "src": "/images/belgium/belg1.jpg",
+        "alt": "Belg1",
+        "caption": "Belg1"
+      },
+      {
+        "src": "/images/belgium/belg2.jpg",
+        "alt": "Belg2",
+        "caption": "Belg2"
+      },
+      {
+        "src": "/images/belgium/belg3.jpg",
+        "alt": "Belg3",
+        "caption": "Belg3"
+      },
+      {
+        "src": "/images/belgium/belg4.jpg",
+        "alt": "Belg4",
+        "caption": "Belg4"
+      },
+      {
+        "src": "/images/belgium/belg5.jpg",
+        "alt": "Belg5",
+        "caption": "Belg5"
+      }
+    ]
+  },
   "guatemala": {
     "name": "Guatemala",
     "slug": "guatemala",
@@ -168,6 +199,21 @@ export const photosByCountry: Record<string, Country> = {
         "caption": "31"
       },
       {
+        "src": "/images/nepal/IMG_9913.JPG",
+        "alt": "IMG 9913",
+        "caption": "IMG 9913"
+      },
+      {
+        "src": "/images/nepal/IMG_9917.JPG",
+        "alt": "IMG 9917",
+        "caption": "IMG 9917"
+      },
+      {
+        "src": "/images/nepal/IMG_9922.JPG",
+        "alt": "IMG 9922",
+        "caption": "IMG 9922"
+      },
+      {
         "src": "/images/nepal/img_2862.webp",
         "alt": "Img 2862",
         "caption": "Img 2862"
@@ -223,6 +269,31 @@ export const photosByCountry: Record<string, Country> = {
     "name": "Senegal",
     "slug": "senegal",
     "photos": [
+      {
+        "src": "/images/senegal/IMG_9914.JPG",
+        "alt": "IMG 9914",
+        "caption": "IMG 9914"
+      },
+      {
+        "src": "/images/senegal/IMG_9915.JPG",
+        "alt": "IMG 9915",
+        "caption": "IMG 9915"
+      },
+      {
+        "src": "/images/senegal/IMG_9916.JPG",
+        "alt": "IMG 9916",
+        "caption": "IMG 9916"
+      },
+      {
+        "src": "/images/senegal/IMG_9918.JPG",
+        "alt": "IMG 9918",
+        "caption": "IMG 9918"
+      },
+      {
+        "src": "/images/senegal/IMG_9920.JPG",
+        "alt": "IMG 9920",
+        "caption": "IMG 9920"
+      },
       {
         "src": "/images/senegal/img_5148.webp",
         "alt": "Img 5148",
@@ -379,6 +450,16 @@ export const photosByCountry: Record<string, Country> = {
         "src": "/images/thailand/000015.webp",
         "alt": "000015",
         "caption": "000015"
+      },
+      {
+        "src": "/images/thailand/IMG_9919.JPG",
+        "alt": "IMG 9919",
+        "caption": "IMG 9919"
+      },
+      {
+        "src": "/images/thailand/IMG_9921.JPG",
+        "alt": "IMG 9921",
+        "caption": "IMG 9921"
       },
       {
         "src": "/images/thailand/img_7095-2.webp",
