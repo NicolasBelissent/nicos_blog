@@ -50,7 +50,7 @@ With 80km left on the day we quickly shook the lactic out of our legs and contin
   </figure>  
 </div>
 
-A loop of the iconic Roubaix track and we slowly made it to Finlay's friend's place who was hosting us for the night. Saturdays in Lille call for one thing: beers. We couldn't really say no—despite wanting the bed.
+A loop of the iconic Roubaix track and we slowly made it to Finlay's friend's place who was hosting us for the night. Saturdays in Lille call for one thing: beers. We couldn't really say no, despite wanting the bed.
 
 Back at 1 a.m., up at 8. We woke early, grabbed burnt coffee in a PMU bar that still smelled like it had been pouring Kronenbourg hours before, and then rode into a headwind, racing just to stay on schedule. The Nord-Pas-de-Calais delivered everything it’s known for: endless flatland, potato farms, and stubborn grey skies. Fatigue blurred the ride; conversation faded. We tried to catch a train at Hazebrouck to skip some distance, but French rail strikes and delays kept us in the saddle. We pushed harder, fighting wind and time, and finally rolled back into our original meeting spot from day one: the one and only Dunkirk.
 
