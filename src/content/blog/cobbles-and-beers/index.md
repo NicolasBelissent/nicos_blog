@@ -1,18 +1,17 @@
 ---
 title: "Cobbles and beers"
-description: "Bike trip with Finlay to Belgium"
+description: "Strong beers, bumpy roads, and good times cycling through the Flanders"
 date: "September 11 2024"
 ---
 
-
-Finlay and I never really knew each other growing up. Chamonix is a small place. I had heard of him. The Irish kid that came and left, was here in the summer or over Christmas but never as much as the friends of mine that lived in the valley full-time. It was only during COVID when I got to know him. He and I had both come back to our family homes to spend lockdown in the mountains. As the restrictions loosened, a group of friends would meet up to ride bikes up and down the valley. Bars were shut, the volleyball court was shut, house parties weren't allowed. This riding group became one of the main ways to meet up with friends to have a chat and a socially distanced coffee.
+Finlay and I never really knew each other growing up. Chamonix is a small place, so naturally, I had heard of him. The Irish kid that came and left, was here in the summer or over Christmas but never as much as the friends of mine that lived in the valley full-time. It was only during COVID when I got to know him. He and I had both come back to our family homes to spend lockdown in the mountains. As the restrictions loosened, a group of friends would meet up to ride bikes up and down the valley. Bars were shut, the volleyball court was shut, house parties weren't allowed. This riding group became one of the main ways to meet up with friends to have a chat and a socially distanced coffee.
 
 Fin has become one of my best friends. We share ideas, concerns, opinions. Last week we went on a bike trip through Flanders.
 
 I've always wanted to ride in Flanders as it's a legendary cycling spot. Too many top riders are from there. The cobbles of the Paterberg and so much more.
 Finlay took the train up from Chamonix via Paris. I took a train from London to Dover and then hopped on the ferry to Dunkirk. We met up in a roadside hotel late that Friday night and set off early with tired eyes, craving espresso and pastries. Needless to say, Dunkirk isn't really the place for that. More of an 8am calvados and cigarette kind of place. But hey! We had our carbs and caffeine and set off.
 
-I had planned a cobble heavy 450km route linking Dunkirk, Ghent, Oudenaarde, Lille and back to Dunkirk (in case we hadn't had enough the first time round). 
+I had planned a cobble heavy 450km route linking Dunkirk, Ghent, Oudenaarde, Lille and back to Dunkirk (in case we hadn't had enough the first time round).
 
 The route took us along the channel, crossing into Belgium relatively quickly. I hadn't seen Fin in a while, so we had a bunch to catch up on. So much that our first pit stop came quicker than expected: Ostend.
 
@@ -47,9 +46,9 @@ Crazy steep. Crazy bumpy. No wonder people race up them. With 80km left on the d
   </figure>  
 </div>
 
-A loop of the iconic Roubaix track and we slowly made it to Finlay's friend's place who was hosting us for the night. Saturdays in Lille call for one thing: beers. We couldn't say no**—despite wanting the bed.** 
+A loop of the iconic Roubaix track and we slowly made it to Finlay's friend's place who was hosting us for the night. Saturdays in Lille call for one thing: beers. We couldn't say no**—despite wanting the bed.**
 
-Back at 1am, up at 8am, . We woke up early anbdWe rode back in the headwind, racing along the way. The riding was dull. The Nord-pas-de-Calais region of France is know for its lack of terrain, potatoes famers and overcast grey weather. We had it all. We were late on time. I had a ferry to catch and Fin a train. This ride was all a blur of fatigue and headwinds. Not even sure we were talking much. We stopped at a train station midway hoping we could clock off some of distance and headwind. But in the spirit of the french railway service, strikes and delays kept us on the saddle. We pushed progressively harder and made it back to the our first meeting point on day one. 
+Back at 1 a.m., up at 8. We woke early, grabbed burnt coffee in a PMU bar that still smelled like it had been pouring Kronenbourg hours before, and then rode into a headwind, racing just to stay on schedule. The Nord-Pas-de-Calais deliveredeverything it’s known for: endless flatland, potato farms, and stubborn grey skies. Fatigue blurred the ride; conversation faded. We tried to catch a train from there to skip some distance, but French rail strikes kept us in the saddle. We pushed harder, fighting wind and time, and finally rolled back into our original meeting spot from day one.
 
   <figure style="margin: 0; text-align: center;">
   <img src="/images/belgium/belg5.jpg" alt="Zooming through the Fladers forests" style="max-width: 600px; width: 100%;">
