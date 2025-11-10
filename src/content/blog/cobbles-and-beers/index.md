@@ -21,7 +21,7 @@ Ostend was everything I could expect from a seaside Belgian town in September. B
 </figure>
 Once we got the chips we had no complaints, the belgians know their chips. But getting our order in was the hard part. We had forgotten about the language divide between Flanders and Wallonia: no more French, barely English, only Flemish.
 
-Full of potato and chilli mayo, we pushed on across the Belgian countryside hopping from one cycle path to another all the way to Ghent. On the way we had to dip into Bruges, not to see the hordes of retired American tour groups but to taste some real Belgian waffles. My impression of them had changed. My experience with belgian belgian waffles were the cold waxy packet package waffles that I'd get after school. The real version is far better, bringing sense to the sugary crunchy bits that I hadnt really understood before.
+Full of potato and chilli mayo, we pushed on across the Belgian countryside hopping from one cycle path to another all the way to Ghent. On the way we had to dip into Bruges, not to see the hordes of retired American tour groups but to taste the real thing. My impression of Belgian waffles shifted fast. Growing up, the only version I knew was the cold, waxy packet I’d grab after school; the fresh one finally made sense of those sugary crunchy bits I’d never really understood before.
 
 Bruges was grab and go. We wanted to get to Ghent.
 
