@@ -1,6 +1,6 @@
 ---
 title: "The lost kingdom of Lo"
-description: "Papa has never really had a fascination for travel. More of an explore your backyard kind of guy. That rule changed when we visited Nepal in early 2021."
+description: "Taking my dad to Nepal's Upper Mustang and the walled city of Lo Manthang."
 date: "May 11 2024"
 ---
 

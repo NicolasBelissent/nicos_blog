@@ -1,6 +1,6 @@
 ---
 title: "Wales Weekender"
-description: "Two bikes, a stormy forecast, and a plan to ride the length of Wales from Bangor to Cardiff over a single weekend."
+description: "Bangor to Cardiff in one stormy weekend of off-road miles."
 date: "April 7 2025"
 ---
 

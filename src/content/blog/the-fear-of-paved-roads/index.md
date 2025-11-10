@@ -1,6 +1,6 @@
 ---
 title: "The fear of paved roads"
-description: "A solo bikepacking adventure through Northern Thailand's Lanna Kingdom route, where steep climbs and warm hospitality defined an unexpected journey."
+description: "Solo bikepacking across Thailand's steep Lanna Kingdom route."
 date: "Aug 08 2025"
 ---
 

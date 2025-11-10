@@ -1,6 +1,6 @@
 ---
 title: "Cobbles and beers"
-description: "Strong beers, bumpy roads, and good times cycling through the Flanders"
+description: "A cobble-heavy loop through Flanders fueled by waffles and strong beer."
 date: "September 11 2024"
 ---
 

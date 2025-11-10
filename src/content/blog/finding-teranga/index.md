@@ -1,6 +1,6 @@
 ---
 title: "Finding Teranga"
-description: "A journey through Senegal to experience teranga - the spirit of hospitality and community that defines Senegalese culture."
+description: "Chasing Senegal's teranga through fishing towns and the Sine Saloum delta."
 date: "Nov 16 2024"
 ---
 
