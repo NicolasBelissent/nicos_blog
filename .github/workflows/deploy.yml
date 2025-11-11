@@ -32,5 +32,5 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: d283035a796c54c70644a9cbf116421a
+          accountId: fbed452205492416436b81c9e7799082
           command: pages deploy dist --project-name=nicos-blog --commit-dirty=true
