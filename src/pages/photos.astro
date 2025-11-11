@@ -13,9 +13,21 @@ const orderedCountries = [
     .filter(Boolean),
   ...visibleCountries.filter(country => !preferredOrder.includes(country.slug)),
 ];
-// Get one random photo per country for the cover
+
+const STABLE_SEED = import.meta.env.PUBLIC_PHOTO_SEED ?? "default-seed";
+const getDeterministicIndex = (slug: string, length: number) => {
+  const seed = `${STABLE_SEED}-${slug}`;
+  let hash = 0;
+  for (let i = 0; i < seed.length; i += 1) {
+    hash = (hash << 5) - hash + seed.charCodeAt(i);
+    hash |= 0;
+  }
+  return Math.abs(hash) % length;
+};
+
+// Get one deterministic photo per country for the cover
 const photoCollections = orderedCountries.map(country => {
-  const randomIndex = Math.floor(Math.random() * country.photos.length);
+  const randomIndex = getDeterministicIndex(country.slug, country.photos.length);
   return {
     country: country.name,
     slug: country.slug,
