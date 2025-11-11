@@ -6,8 +6,15 @@ import { EXCLUDED_PHOTO_SET } from "@data/photosConfig";
 
 const countries = getAllCountries();
 const visibleCountries = countries.filter(country => !EXCLUDED_PHOTO_SET.has(country.slug));
+const preferredOrder = ["nepal", "mexico", "senegal", "india", "tanzania", "guatemala"];
+const orderedCountries = [
+  ...preferredOrder
+    .map(slug => visibleCountries.find(country => country.slug === slug))
+    .filter(Boolean),
+  ...visibleCountries.filter(country => !preferredOrder.includes(country.slug)),
+];
 // Get one random photo per country for the cover
-const photoCollections = visibleCountries.map(country => {
+const photoCollections = orderedCountries.map(country => {
   const randomIndex = Math.floor(Math.random() * country.photos.length);
   return {
     country: country.name,
