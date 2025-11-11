@@ -5,6 +5,9 @@ import { SITE, SOCIALS } from "@consts";
 import Link from "@components/Link.astro";
 ---
 
+const encodedEmail = Buffer.from(SITE.EMAIL).toString("base64");
+---
+
 <PageLayout title="About" description="About me and this site">
   <Container>
     <div class="space-y-10">
@@ -32,8 +35,8 @@ import Link from "@components/Link.astro";
         </h2>
         <ul class="flex flex-wrap gap-2">
           <li class="flex gap-x-2 text-nowrap">
-            <Link href={`mailto:${SITE.EMAIL}`} aria-label={`Email ${SITE.NAME}`}>
-              {SITE.EMAIL}
+            <Link id="contact-email" href="#" data-email={encodedEmail} aria-label={`Email ${SITE.NAME}`}>
+              contact me
             </Link>
             {"/"}
           </li>
@@ -50,3 +53,12 @@ import Link from "@components/Link.astro";
     </div>
   </Container>
 </PageLayout>
+
+<script is:inline>
+  const link = document.getElementById("contact-email");
+  if (link && link.dataset.email) {
+    const email = atob(link.dataset.email);
+    link.href = `mailto:${email}`;
+    link.textContent = email;
+  }
+</script>
