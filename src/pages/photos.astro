@@ -26,14 +26,27 @@ const getDeterministicIndex = (slug: string, length: number) => {
 };
 
 // Get one deterministic photo per country for the cover
+const usedImages = new Set<string>();
 const photoCollections = orderedCountries
   .filter((country): country is NonNullable<typeof country> => country !== null && country !== undefined)
   .map(country => {
-    const randomIndex = getDeterministicIndex(country.slug, country.photos.length);
+    let randomIndex = getDeterministicIndex(country.slug, country.photos.length);
+    let attempts = 0;
+    let coverImage = country.photos[randomIndex].src;
+
+    // Ensure unique cover images across countries
+    while (usedImages.has(coverImage) && attempts < country.photos.length) {
+      randomIndex = (randomIndex + 1) % country.photos.length;
+      coverImage = country.photos[randomIndex].src;
+      attempts++;
+    }
+
+    usedImages.add(coverImage);
+
     return {
       country: country.name,
       slug: country.slug,
-      coverImage: country.photos[randomIndex].src
+      coverImage
     };
   });
 ---
@@ -50,6 +63,8 @@ const photoCollections = orderedCountries
             <img
               src={collection.coverImage}
               alt={collection.country}
+              loading="lazy"
+              decoding="async"
               class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
             />
             <div class="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">

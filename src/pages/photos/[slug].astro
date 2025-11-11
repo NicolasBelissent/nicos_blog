@@ -42,9 +42,11 @@ if (!country || EXCLUDED_PHOTO_SET.has(country.slug)) {
           <img
             src={photo.src}
             alt={photo.alt}
-            loading={index < 6 ? "eager" : "lazy"}
+            loading={index < 3 ? "eager" : "lazy"}
             decoding="async"
+            fetchpriority={index < 3 ? "high" : "low"}
             class="w-full h-auto hover:scale-105 transition-transform duration-300"
+            style="content-visibility: auto;"
           />
         </a>
       ))}
