@@ -3,7 +3,6 @@ import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import { SITE, SOCIALS } from "@consts";
 import Link from "@components/Link.astro";
----
 
 const encodedEmail = Buffer.from(SITE.EMAIL).toString("base64");
 ---
@@ -35,9 +34,9 @@ const encodedEmail = Buffer.from(SITE.EMAIL).toString("base64");
         </h2>
         <ul class="flex flex-wrap gap-2">
           <li class="flex gap-x-2 text-nowrap">
-            <Link id="contact-email" href="#" data-email={encodedEmail} aria-label={`Email ${SITE.NAME}`}>
+            <a id="contact-email" href="#" data-email={encodedEmail} aria-label={`Email ${SITE.NAME}`}>
               contact me
-            </Link>
+            </a>
             {"/"}
           </li>
           {SOCIALS.map(SOCIAL => (

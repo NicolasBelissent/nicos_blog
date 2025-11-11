@@ -26,14 +26,16 @@ const getDeterministicIndex = (slug: string, length: number) => {
 };
 
 // Get one deterministic photo per country for the cover
-const photoCollections = orderedCountries.map(country => {
-  const randomIndex = getDeterministicIndex(country.slug, country.photos.length);
-  return {
-    country: country.name,
-    slug: country.slug,
-    coverImage: country.photos[randomIndex].src
-  };
-});
+const photoCollections = orderedCountries
+  .filter((country): country is NonNullable<typeof country> => country !== null && country !== undefined)
+  .map(country => {
+    const randomIndex = getDeterministicIndex(country.slug, country.photos.length);
+    return {
+      country: country.name,
+      slug: country.slug,
+      coverImage: country.photos[randomIndex].src
+    };
+  });
 ---
 
 <PageLayout title="Photos" description="A collection of photos from my adventures">
