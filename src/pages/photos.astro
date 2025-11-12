@@ -14,39 +14,26 @@ const orderedCountries = [
   ...visibleCountries.filter(country => !preferredOrder.includes(country.slug)),
 ];
 
-const STABLE_SEED = import.meta.env.PUBLIC_PHOTO_SEED ?? "default-seed";
 const getDeterministicIndex = (slug: string, length: number) => {
-  const seed = `${STABLE_SEED}-${slug}`;
+  // Use a stable seed based on slug only
   let hash = 0;
-  for (let i = 0; i < seed.length; i += 1) {
-    hash = (hash << 5) - hash + seed.charCodeAt(i);
+  for (let i = 0; i < slug.length; i += 1) {
+    hash = (hash << 5) - hash + slug.charCodeAt(i);
     hash |= 0;
   }
   return Math.abs(hash) % length;
 };
 
-// Get one deterministic photo per country for the cover
-const usedImages = new Set<string>();
+// Get one deterministic photo per country for the cover - always use first photo for stability
 const photoCollections = orderedCountries
   .filter((country): country is NonNullable<typeof country> => country !== null && country !== undefined)
   .map(country => {
-    let randomIndex = getDeterministicIndex(country.slug, country.photos.length);
-    let attempts = 0;
-    let coverImage = country.photos[randomIndex].src;
-
-    // Ensure unique cover images across countries
-    while (usedImages.has(coverImage) && attempts < country.photos.length) {
-      randomIndex = (randomIndex + 1) % country.photos.length;
-      coverImage = country.photos[randomIndex].src;
-      attempts++;
-    }
-
-    usedImages.add(coverImage);
-
+    // Use deterministic index but ensure it's always the same for each country
+    const photoIndex = getDeterministicIndex(country.slug, country.photos.length);
     return {
       country: country.name,
       slug: country.slug,
-      coverImage
+      coverImage: country.photos[photoIndex].src
     };
   });
 ---
